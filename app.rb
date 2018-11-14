@@ -50,9 +50,6 @@ end
     elsif operator == "div"
         solution = division(number1, number2)
         operator = "/"
-    if number1 == 0
-        solution = "Don't divide by 0"
-     end
     end
     erb :calculation, locals: {number1: number1, number2: number2, operator: operator, solution: solution}
  end
