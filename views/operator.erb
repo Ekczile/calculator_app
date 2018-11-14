@@ -1,0 +1,12 @@
+<form method = 'post' action = '/operator'>
+Operator: 
+<select name = "oper">
+  <option value="add">add</option>
+  <option value="sub">subtract</option>
+  <option value="multi">multiply</option>
+  <option value="div">divide</option>
+</select>
+  <input type = "hidden" name = "num1" value = <%= number1%>>
+  <input type = "hidden" name = "num2" value = <%= number2%>>
+  <input type="submit" value="Submit">
+</form>
